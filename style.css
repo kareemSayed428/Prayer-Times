@@ -402,7 +402,7 @@
   .carousel .list .item:nth-child(1) .content img.vector {
     left: 50%;
     transform: translateX(-50%);
-    top: 331px;
+    top: 310px;
   }
   .carousel .list .item:nth-child(1) .content footer .left h1 {
     font-size: 30px;
@@ -413,6 +413,12 @@
   .carousel .list .item:nth-child(1) .content footer .left p {
     top: 70px;
     font-size: 12px;
+  }
+  .carousel .list .item:nth-child(1) .content footer .right .text {
+    top: 110px;
+  }
+  .carousel .list .item:nth-child(1) .content footer .right img {
+    margin-top: -20px;
   }
   .carousel .list .item:nth-child(2) .content i {
     left: -100px;
@@ -426,7 +432,10 @@
     position: absolute;
   }
   .carousel .list .item:nth-child(2) .content h1 {
-    font-size: 35px;
+    font-size: 25px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
   }
   .carousel .list .item:nth-child(2) .content .vector-list {
@@ -439,11 +448,11 @@
   .carousel .list .item:nth-child(2) .content .input input {
     width: 300px;
   }
-  .carousel .list .item:nth-child(2) .content .table-data table {
-    width: 50%;
-  }
   .carousel .list .item:nth-child(2) .content .table-data table th {
-    width: 50px;
+    font-size: 12px;
+  }
+  .carousel .list .item:nth-child(2) .content .table-data table td {
+    font-size: 14px;
   }
   .carousel .list .item:nth-child(2) .content footer .left {
     transform: translateY(50px);
@@ -458,5 +467,11 @@
   .carousel .list .item:nth-child(2) .content footer .left p {
     top: 70px;
     font-size: 12px;
+  }
+  .carousel .list .item:nth-child(2) .content footer .right .text {
+    top: 110px;
+  }
+  .carousel .list .item:nth-child(2) .content footer .right img {
+    margin-top: -20px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -546,7 +546,7 @@
                     img.vector {
                         left: 50%;
                         transform: translateX(-50%);
-                        top: 331px;
+                        top: 310px;
                     }
 
                     footer {
@@ -564,6 +564,14 @@
                             p {
                                 top: 70px;
                                 font-size: 12px;
+                            }
+                        }
+                        .right {
+                            .text {
+                                top: 110px;
+                            }
+                            img {
+                                margin-top: -20px;
                             }
                         }
                     }
@@ -584,7 +592,10 @@
                         }
                     }
                     h1 {
-                        font-size: 35px;
+                        font-size: 25px;
+                        width: 350px;
+                        margin-left: auto;
+                        margin-right: auto;
                         margin-top: 40px;
                     }
                     .vector-list {
@@ -603,15 +614,12 @@
                         }
                     }
                     .table-data {
-                        //overflow-x: auto;
-                        //overflow: auto;
-                        //width: 100vw;
                         table {
-                           //overflow-x: scroll;
-                           width: 50%;
-
                            th {
-                            width: 50px;
+                            font-size: 12px;
+                           }
+                           td {
+                            font-size: 14px;
                            }
                         }
                     }
@@ -631,6 +639,14 @@
                             p {
                                 top: 70px;
                                 font-size: 12px;
+                            }
+                        }
+                        .right {
+                            .text {
+                                top: 110px;
+                            }
+                            img {
+                                margin-top: -20px;
                             }
                         }
                     }
