@@ -119,7 +119,7 @@ if(inputText.value === '') {
 // Start Search
 btnSearch.addEventListener("click", function(){
     let keySrarch = inputText.value.toLowerCase();
-    console.log(inputText.value.toLowerCase());
+    //console.log(inputText.value.toLowerCase());
 
     
 
@@ -130,14 +130,14 @@ btnSearch.addEventListener("click", function(){
         return e.toLowerCase().startsWith(keySrarch);
     });
 
-    console.log(cityNameCheck);
+    //console.log(cityNameCheck);
 
 
     cityName.innerHTML = cityNameCheck;
 
 
     if (cityNameCheck === undefined) {
-        console.log('No Sir - No Data');
+        //console.log('No Sir - No Data');
 
         cityName.style.fontSize = '30px';
         cityName.innerHTML = 'Please Enter City Name';
