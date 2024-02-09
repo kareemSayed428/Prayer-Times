@@ -167,7 +167,7 @@ btnSearch.addEventListener("click", function(){
         vectorbehaindTable.style.opacity = '1';
 
     } else {
-        cityName.style.fontSize = '60px';
+        cityName.style.fontSize = '30px';
         //allTable.style.display = 'block';
         //console.log('No');
         vectorbehaindTable.style.opacity = '0.5';
@@ -257,7 +257,7 @@ btnSearch.addEventListener("click", function(){
         //console.log(valueOfKey); // Asr
 
         let nextTime = objVals[indexOfValus]; // to get only index in object that ok my time from find 
-        console.log(nextTime);
+        //console.log(nextTime);
 
 
 
@@ -278,14 +278,14 @@ btnSearch.addEventListener("click", function(){
         */
         let Difference_In_Hours = Difference_In_Time % (1000 * 60 * 60 * 24) / (1000 * 60 * 60);
         let curentHours = Math.floor(Difference_In_Hours)
-        console.log('Houre :' + curentHours);
+        //console.log('Houre :' + curentHours);
 
         /* 
             To Calculate The Mintets
         */
         let Difference_In_Mintets = Difference_In_Time % (1000 * 60 * 60) / (1000 * 60);
         let curentMin = Number.parseFloat(Difference_In_Mintets).toFixed(2);
-        console.log('Mintets: ' + curentMin);
+       // console.log('Mintets: ' + curentMin);
 
 
 
@@ -333,21 +333,21 @@ let ramadanInMilliSecound = ramadanDate - localTime;
 // To calculate the number of days between two (dates) 
 let ramadanInDays = ramadanInMilliSecound / (1000 * 60 * 60 * 24);
 let ramadanInDays_Math = Math.floor(ramadanInDays);
-console.log(ramadanInDays_Math);
+//console.log(ramadanInDays_Math);
 
 /* 
     To Calculate The Houre
 */
 let ramadanInHours = ramadanInMilliSecound % (1000 * 60 * 60 * 24) / (1000 * 60 * 60);
 let ramadanInHours_Math = Math.floor(ramadanInHours);
-console.log(ramadanInHours_Math);
+//console.log(ramadanInHours_Math);
 
 /* 
     To Calculate The Mintets
 */
 let ramadanInMini = ramadanInMilliSecound % (1000 * 60 * 60) / (1000 * 60);
 let ramadanInMini_Math = Number.parseFloat(ramadanInMini).toFixed(2);
-console.log(ramadanInMini_Math);
+//console.log(ramadanInMini_Math);
 
 
 
