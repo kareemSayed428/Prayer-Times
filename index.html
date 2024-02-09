@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/66c14edbd6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="carousel">
+                <div class="list">
+                    <!-- <div class="item"></div> -->
+                         <div class="item">
+                        <img src="./image/01.png">
+                        <img src="./image/04.png">
+                        <div class="content">
+                            
+                            
+                            <h1>Did you pray today ?</h1>
+                            <h2>Learn About Prayer Times</h2>
+                            <p>Salat al-fajr (the dawn or any time before sunrise)
+                                Salat al-zuhr (midday, after the sun passes its highest)
+                                Salat al-'asr (the late part of the afternoon)
+                                Salat al-maghrib (dusk or just after sunset)
+                                Salat al-'isha (between sunset and midnight)
+                            </p>
+                            <button id="start">Start</button>
+                            <img class="vector" src="./image/03.png">
+                            <img class="party" src="./image/05.png">
+                            <footer>
+                                <div class="left">
+                                    <h1>Ramadan Is Comming</h1>
+                                    <p>The blessed month we are waiting</p>
+                                </div>
+                                <div class="right">
+                                    <div class="text">
+                                        <div class="days">
+                                            <h4 id="ramadan-day">...</h4>
+                                            <h3>Days</h3>
+                                        </div>
+                                        <div class="hours">
+                                            <h4 id="ramadan-hours">...</h4>
+                                            <h3>Hours</h3>
+                                        </div>
+                                        <div class="minutes">
+                                            <h4 id="ramadan-mini">...</h4>
+                                            <h3>Minutes</h3>
+                                        </div>
+                                    </div>
+
+                                    <img src="./image/06.png">
+                                </div>
+                            </footer>
+                        </div>
+                    </div>       
+                    
+                    <div class="item">
+                        <img src="./image/01.png">
+                        <img src="./image/04.png">
+                        <div class="content">
+                            <i id="prev" class="fa-regular fa-circle-left"></i>
+                            <i id="prev-tow" class="fa-regular fa-circle-left"></i>
+                            
+                            <h1 id="Today-prayer">Today's prayer timing for <span id="city" class="city"></span></h1>
+                            
+                            <div class="input">
+                                <input id="input" type="text" placeholder="Search By City Name. Ex: cairo">
+                                <button id="search">Search</button>
+                            </div>
+
+                            <div id="vector-list" class="vector-list">
+                                <div class="img-item">
+                                    <img src="./image/07.png">
+                                </div>
+                                <!-- <div class="img-item">
+                                    <img src="./image/08.png">
+                                </div> -->
+                            </div>
+
+                            <div class="table-data" id="table-data">
+                                <table>
+                                    <tr>
+                                        <th>Fajr</th>
+                                        <th>Sunrise</th>
+                                        <th>Dhuhr</th>
+                                        <th>Asr</th>
+                                        <th>Maghrib</th>
+                                        <th>Isha</th>
+                                    </tr>
+                                    <tr id="table-tr">
+                                        <!-- <td></td>
+                                        <td>05:33</td>
+                                        <td>05:33</td>
+                                        <td>05:33</td>
+                                        <td>05:33</td>
+                                        <td>05:33</td> -->
+                                    </tr>
+                                    <tr>
+                                        <th>Firstthird</th>
+                                        <th>Midnight</th>
+                                        <th>Lastthird</th>
+                                        <th>Imsak</th>
+                                        <th>Sunset</th>
+                                        <th>Ifttar</th>
+                                    </tr>
+                                    <tr id="table-tr-tow">
+                                        <!-- <td>05:33</td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            
+                            <footer>
+                                <div class="left">
+                                    <h1>Next prayer El <span id="next-prayer">(...)</span> after :</h1>
+                                    <p>Maintain prayers on time</p>
+                                </div>
+
+                                <div class="right">
+                                    <div class="text">
+                                        <div class="hours">
+                                            <h4 id="hours">...</h4>
+                                            <h3>Hours</h3>
+                                        </div>
+                                        <div class="minutes">
+                                            <h4 id="minutes">...</h4>
+                                            <h3>Minutes</h3>
+                                        </div>
+                                    </div>
+                                    <img src="./image/06.png">
+                                </div>
+
+                            </footer>
+                        </div>
+                    </div>
+
+                    <!-- <div class="item">
+                        <img src="./image/img4.jpg">
+                        <img src="./image/04.png">
+                        <div class="content">
+                            <i id="prev" class="fa-regular fa-circle-left"></i>
+                            <h1>Welcoming To The Ramadan</h1>
+                            <button id="start">Start</button>
+                        </div>
+                    </div> -->
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
