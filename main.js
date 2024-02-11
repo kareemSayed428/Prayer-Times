@@ -307,6 +307,15 @@ btnSearch.addEventListener("click", function(){
             nextHours.innerHTML = '...';
             nextMin.innerHTML = '...';
         }
+
+
+        // nextPrayer not working after 10:00 pm to 00:00 am = get undefined
+        if(nextPrayer.innerHTML === undefined) {
+            nextPrayer.style.display = 'none';
+            h1TodaysPrayer.innerHTML = 'Did you pray today ?';
+            nextHours.innerHTML = '...';
+            nextMin.innerHTML = '...';
+        }
         
     };
     getApi();
@@ -360,6 +369,9 @@ let miniOfRamadan = document.getElementById('ramadan-mini');
 dayOfRamadan.innerHTML = ramadanInDays_Math;
 hoursOfRamadan.innerHTML = ramadanInHours_Math;
 miniOfRamadan.innerHTML = ramadanInMini_Math;
+
+
+
 
 
 
