@@ -88,6 +88,7 @@ let nextMin = document.getElementById('minutes');
 
 let vectorbehaindTable = document.getElementById('vector-list');
 let h1TodaysPrayer = document.getElementById('Today-prayer');
+let nextPrayerH1 = document.getElementById('next-prayer-h1');
 
 
 
@@ -310,9 +311,9 @@ btnSearch.addEventListener("click", function(){
 
 
         // nextPrayer not working after 10:00 pm to 00:00 am = get undefined
-        if(nextPrayer.innerHTML === undefined) {
+        if(valueOfKey === undefined) {
             nextPrayer.style.display = 'none';
-            h1TodaysPrayer.innerHTML = 'Did you pray today ?';
+            nextPrayerH1.innerHTML = 'Did you pray today ?';
             nextHours.innerHTML = '...';
             nextMin.innerHTML = '...';
         }
