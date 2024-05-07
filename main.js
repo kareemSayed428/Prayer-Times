@@ -329,7 +329,7 @@ btnSearch.addEventListener("click", function(){
 /* 
     Date Ramadan 2024
 */ 
-let ramadanDate = new Date('Mar 10, 2024 00:00:00').getTime();
+let ramadanDate = new Date('Mar 1, 2025 00:00:00').getTime();
 let localTime = new Date().getTime();
 
 /* 
